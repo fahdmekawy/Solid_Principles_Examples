@@ -1,4 +1,4 @@
-import 'models/order_model.dart';
+import 'order.dart';
 
 class OrderManagement {
   void processOrder(Order order) {

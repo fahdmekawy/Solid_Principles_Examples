@@ -1,4 +1,4 @@
-import 'models/order_model.dart';
+import 'order.dart';
 import 'payment_stratgy.dart';
 
 class PaymentProcessor {
@@ -8,7 +8,7 @@ class PaymentProcessor {
 
   void processPayment(Order order) {
     print("Processing payment of order : " + order.getName);
-    print("Issuing payment for amount : " + order.getTotalPrice);
-    _paymentStratgy.processPayment(order.getTotalPrice);
+    // print("Issuing payment for amount : " + order.getTotalPrice);
+    // _paymentStratgy.processPayment(order.price);
   }
 }

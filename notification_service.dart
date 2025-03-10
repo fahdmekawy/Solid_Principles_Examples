@@ -1,4 +1,4 @@
-import 'models/customer_model.dart';
+import 'customer.dart';
 
 class NotificationService {
   void sendEmailNotification(Customer customer, String message) {
